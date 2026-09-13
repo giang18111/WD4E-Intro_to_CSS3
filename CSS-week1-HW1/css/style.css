@@ -29,6 +29,10 @@ footer {
     text-align: center;
 }
 
+footer p {
+    color: #ffffff;
+}
+
 li {
     display: inline-block;
     width: 120px;
@@ -45,7 +49,6 @@ p {
     color: #222222;
 }
 
-/* SỬA TRIỆT ĐỂ LỖI WAVE: Đổi toàn bộ màu chữ đường link thành trắng */
-a {
+a, a:link, a:visited, a:hover, a:active {
     color: #ffffff !important;
 }
